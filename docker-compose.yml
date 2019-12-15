@@ -4,9 +4,7 @@ services:
   mvccoexp:
     image: soniaruiz/coexp:ui
     ports:
-      - "8500:80"
-    depends_on:
-      - rcoexp
+      - "80:80"
   rcoexp:
     image: soniaruiz/coexp:r-lite
     ports:
