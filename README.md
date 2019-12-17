@@ -6,4 +6,4 @@ The Dockerfile file contains the instructions to generate a docker image with th
 - Containing the backend of CoExp WebPage (author [Juan Botia](https://github.com/juanbot/CoExpNets)).
 - Containing a new net generated from a list of preferred genes.
 
-On the other hand, the docker-compose.yml file will be used to make possible the correct communication between the backend and frontend docker images of [CoExp Webpage](https://snca.atica.um.es/coexp_test/). 
+On the other hand, the docker-compose.yml file will be used to make possible the correct communication between the backend and frontend docker images of [CoExp Webpage](https://snca.atica.um.es/coexp_test/). The docker images used in the docker-compose.yml file will be the ones tagged as *ui* and *r* on this [Docker Hub](https://hub.docker.com/r/soniaruiz/coexp). 
