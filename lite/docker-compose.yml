@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  mvccoexp:
+    image: soniaruiz/coexp:ui
+    ports:
+      - "80:80"
+  rcoexp:
+    image: soniaruiz/coexp:r-lite
+    ports:
+      - "8800:8800"
